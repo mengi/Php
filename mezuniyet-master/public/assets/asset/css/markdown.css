@@ -1,0 +1,44 @@
+body {
+    background-color: #fff;
+    font-family: 'Open Sans';
+    font-size:1.6em;
+}
+
+p {
+    font-size:1em;
+}
+
+.navbar-brand {
+    color: #111111;
+}
+
+.callout {
+    margin: 0px 0px;
+    padding: 20px;
+    border-left: 5px solid #EEE;
+}
+
+.callout-other {
+    border-color: #463265;
+    background-color: #eee;
+}
+
+.callout-blue {
+    background-color: #F4F8FA;
+    border-color: rgba(146, 145, 182, 1);
+}
+
+.listheader-other {
+    background-color: #463265;
+    color: #fff;
+    border: 2px solid #463265;
+}
+
+.label-purple {
+    background-color: #463265;
+}
+
+.label-purple-inter {
+    background-color: rgba(105, 92, 125, 1);
+}
+
