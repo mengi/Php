@@ -1,0 +1,58 @@
+<?php 
+
+include '_header.php'; 
+
+?>
+
+<div class="container" style="margin-top: 75px">
+    <div class="row">
+          <div class="alert alert-danger">
+               <a class="close" data-dismiss="alert" href="#">×</a>Kullanıcı Adı veya şifreyi yanlış girdiniz.
+          </div>   
+    </div>
+</div> 
+
+
+<center>
+   <div class="container">
+      <div class="row">
+        <div class="span8">
+           <div class="well">
+             <form class="form-horizontal" id="registerHere1" name="registerHere2" method="post" action="http://localhost/cv/verisle/login.php">
+                <fieldset>
+                  <legend>Giriş</legend>
+
+                  <div class="form-group">
+                    <label for="inputEmail" class="col-lg-2 control-label">Kullanıcı Adı</label>
+                    <div class="col-lg-10">
+                      <input type="text" class="form-control" id="inputEmail" placeholder="Kullanıcı Adı" name="name">
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="inputPassword" class="col-lg-2 control-label">Parola</label>
+                    <div class="col-lg-10">
+                      <input type="password" class="form-control" id="inputPassword" placeholder="Password" name="password">
+                    </div>
+                  </div>
+
+               
+                  <div class="form-group">
+                    <div class="col-lg-10 col-lg-offset-2">
+                      <button type="submit" class="btn btn-primary">Submit</button> 
+                    </div>
+                  </div>
+                </fieldset>
+              </form>
+            </div>
+          </div>
+         
+        </div>
+      </div>
+</center> 
+
+<?php
+
+include '_footer.php';
+
+?>
